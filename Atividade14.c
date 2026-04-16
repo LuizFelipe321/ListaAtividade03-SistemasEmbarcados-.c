@@ -1,9 +1,10 @@
+
 #include <stdio.h>
 #include <math.h>
 
 int main() {
 
-int velocidade, raioCurva, limiteVelocidade = 90;
+int velocidade, raioCurva, limiteAceleracao = 90;
 double forcaCentripeta;
 
 printf("Escreva a velocidade do veículo:");
@@ -22,8 +23,8 @@ if (forcaCentripeta > limiteAceleracao) {
       printf("Velocidade dentro dos conformes!\n");
       }
 
-      printf("Limite permitido: %.2lf\n", aceleracaoVelocidade);
-
+      printf("Limite permitido: %.2lf\n", limiteAceleracao);
+      
 return 0;
 
 }
